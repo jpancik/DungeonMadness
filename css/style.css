@@ -509,7 +509,7 @@
 
 	/* Buttons */
 		
-		.button
+		.buttondownload
 		{
 			position: relative;
 			display: inline-block;
@@ -523,8 +523,29 @@
 			cursor: pointer;
 			outline: 0;
 		}
+                
+                .button
+		{
+			position: relative;
+			display: inline-block;
+			background: #fff;
+			color: #000;
+			text-align: center;
+			border-radius: 0.5em;
+			text-decoration: none;
+			padding: 0.65em 3em 0.65em 3em;
+			border: 0;
+			cursor: pointer;
+			outline: 0;
+		}
+                
+                        .button:hover
+			{
+				color: #fff;
+				background: #d37f1d;
+			}
 
-			.button:hover
+			.buttondownload:hover
 			{
 				color: #fff;
 				background: #ef8376;
@@ -1142,7 +1163,7 @@
 		#header footer
 		{
 			top: 50%;
-                        margin-top: 300px;
+                        margin-top: 250px;
 		}
                 
 		#header hr
