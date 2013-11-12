@@ -288,6 +288,13 @@
 				width: 100%;
 				margin: 0 0 4em 0;
 			}
+                        
+                        .image.portrait
+			{
+				display: block;
+				width: 100%;
+				margin: 0 0 1.5em 0;
+			}
 			
 			.image.left
 			{
@@ -1075,7 +1082,7 @@
 	#header
 	{
 		position: relative;
-		background-image: url('../images/header.jpg');
+		background-image: url('../images/header.png');
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
