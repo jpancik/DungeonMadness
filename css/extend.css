@@ -1,0 +1,83 @@
+body {
+    //background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    //color: #fff;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.title-icon {
+    padding-bottom: 20px;
+}
+
+.title-icon img {
+    border-radius: 4px;
+}
+
+.title-text {
+    padding-bottom: 30px;
+}
+
+.description {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.images-slider {
+}
+
+.images-slider img {
+    width: 100%;
+    height: auto;
+    //border-radius: 5px;
+}
+
+.slick-prev:before, .slick-next:before { 
+    color:black !important;
+}
+
+.call-to-action-text {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.download-button-apple {
+    text-align: center;
+}
+
+.download-button-apple img {
+    width: auto;
+    height: 60px;
+}
+
+.download-button-play {
+    text-align: center;
+}
+
+.download-button-play img {
+    width: 172px;
+    height: 60px;
+}
+
+.place-text {
+    color: #d83d87;
+}
+
+.downloads-row {
+    padding-bottom: 40px;
+}
+
+.contact-us-row {
+    font-size: 15px;
+    text-align: center;
+}
