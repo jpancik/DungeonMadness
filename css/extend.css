@@ -1,7 +1,7 @@
 body {
     //background-color: #000;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 1em;
+    margin-bottom: 5em;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     //color: #fff;
@@ -10,26 +10,18 @@ body {
 .title {
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 3em;
 }
 
 .title-icon {
-    padding-bottom: 20px;
-}
-
-.title-icon img {
-    border-radius: 4px;
-}
-
-.title-text {
-    padding-bottom: 30px;
+    padding-bottom: 0.5em;
 }
 
 .description {
     text-align: center;
     font-size: 20px;
-    line-height: 30px;
-    padding-bottom: 20px;
+    line-height: 1.5em;
+    margin: 3em 0 3em 0;
 }
 
 .images-slider {
@@ -38,7 +30,6 @@ body {
 .images-slider img {
     width: 100%;
     height: auto;
-    //border-radius: 5px;
 }
 
 .slick-prev:before, .slick-next:before { 
@@ -48,22 +39,23 @@ body {
 .call-to-action-text {
     font-size: 30px;
     text-align: center;
-    padding-bottom: 15px;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .download-button-apple {
     text-align: center;
+    margin-bottom: 4em;
 }
 
 .download-button-apple img {
     width: auto;
     height: 60px;
-    margin-bottom: 20px;
 }
 
 .download-button-play {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 3em;
 }
 
 .download-button-play img {
