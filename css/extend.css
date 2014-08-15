@@ -1,20 +1,9 @@
 body {
-    //background-color: #000;
+    background-color: #000;
     padding-top: 1em;
-    margin-bottom: 5em;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
-    //color: #fff;
-}
-
-.title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 3em;
-}
-
-.title-icon {
-    padding-bottom: 0.5em;
+    color: #fff;
 }
 
 .description {
@@ -74,4 +63,5 @@ body {
 .contact-us-row {
     font-size: 15px;
     text-align: center;
+    padding-bottom: 1em;
 }
