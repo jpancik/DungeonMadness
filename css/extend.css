@@ -10,7 +10,19 @@ body {
     text-align: center;
     font-size: 20px;
     line-height: 1.5em;
-    margin: 3em 0 3em 0;
+    margin: 1em 0 1em 0;
+}
+
+.select-game {
+    margin: 1em 0 0 0;
+}
+
+.select-game-description {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.2em;
+    margin: 3em 0 0 0;
 }
 
 .images-slider {
@@ -19,10 +31,26 @@ body {
 .images-slider img {
     width: 100%;
     height: auto;
+    display: none;
 }
 
 .slick-prev:before, .slick-next:before { 
     color:black !important;
+}
+
+.coffee-break {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.coffee-break-cta {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .call-to-action-text {

@@ -8,74 +8,32 @@
         <link rel="stylesheet" href="css/extend.css" />
         <link rel="stylesheet" href="slick/slick.css" />
         <script src="js/vendor/modernizr.js"></script>
-        <link rel="icon" type="image/png" href="img/dm-image.png">
+        <link rel="icon" type="image/png" href="img/icon-dev-page.png">
+        <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div class="row">
             <div class="large-9 large-centered columns">
-                <img src="img/title-text.png" style="width: 100%; height: auto;" />
+                <img src="img/fb-cover.png" style="width: 100%; height: auto; border-radius: 0.5em;" />
             </div>
         </div>
-
-        <div class="description">
-            <div class="row">  
-                <div class="large-12 columns">
-                    Hi! Looking for a game <span class="place-text">on the toilet</span>?
-                </div>
-            </div>
-            <div class="row">  
-                <div class="large-12 columns">
-                    Dungeon Madness is simple, fun and entertaining RPG.
+        
+        <div class="select-game-description">
+            <div class="row">
+                <div class="large-12 large-centered columns">
+                    Click on the game you want to explore
                 </div>
             </div>
         </div>
         
-        <div class="row">
-            <div class="large-6 columns">
-                <div class="images-slider">
-                    <div><img src="img/final-1.png"/></div>
-                    <div><img src="img/final-2.png"/></div>
-                    <div><img src="img/final-3.png"/></div>
-                    <div><img src="img/final-4.png"/></div>
-                    <div><img src="img/final-5.png"/></div>
-                    <div><img src="img/final-6.png"/></div>
-                    <div><img src="img/final-7.png"/></div>
-                    <div><img src="img/final-8.png"/></div>
+        <div class="select-game">
+            <div class="row">
+                <div class="large-5 large-offset-1 columns left">
+                    <a href="DungeonMadnessTheWizardsQuest.html"><img src="img/dm2/dm2-title-text.png" style="width: 100%; height: auto;" /></a>
                 </div>
-            </div>
-            <div class="large-6 columns">
-                <ul>
-                    <li><b>Level up</b> your character</li>
-                    <li>Get through some pretty <b>hard levels</b>, game saves only when you complete a level successfully!</li>
-                    <li><b>Crush</b> some nasty <b>skeletons</b>, <b>gut</b> some horrifying <b>zombies</b>, <b>hit</b> some stupid <b>trolls</b></li>
-                    <li>Find & upgrade your <b>weapons, shields, helmets</b> and <b>chest armor</b></li>
-                    <li><b>Learn</b> some powerful <b>spells/abilities</b> like <b>fireball</b> to get maximum from your hero</li>
-                    <li><b>Craft</b> unique sets from resources you gather</li>
-                    <li>Never get bored with <b>randomly generated dungeons</b>.</li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="large-12 large-centered columns call-to-action-text">
-                Download Dungeon Madness now for <b>free!</b>
-            </div>
-        </div>
-        
-        <div class="row downloads-row">
-            <div class="large-7 large-centered columns">
-                <div class="large-6 columns left download-button-apple">
-                    <a href="https://itunes.apple.com/app/dungeon-madness/id867469540" target="_blank" onclick=trackDownload("iTunes")><img src="img/button-apple-store.svg" /></a>
+                <div class="large-5 columns left" style="padding: 0 2.5em;">
+                    <a href="DungeonMadness.html"><img src="img/dm1/dm1-title-text.png" style="width: 100%; height: auto;" /></a>
                 </div>
-                <div class="large-6 columns left download-button-play">
-                    <a href="https://play.google.com/store/apps/details?id=com.pancik.android.dungeonmadness" target="_blank" onclick=trackDownload("GooglePlay")><img src="img/button-play-store.png" /></a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row contact-us-row">
-            <div class="large-7 large-centered columns">
-                <i>If you would like to contact us, write us an email at <a href="mailto:support@dungeonmadness.com">support@dungeonmadness.com</a></i>
             </div>
         </div>
 
@@ -94,35 +52,6 @@
             function trackDownload(vendor) {
                 ga('send', 'event', 'Download', 'Game', vendor);
             }
-        </script>
-        <script>
-            $(document).foundation();
-            
-            var texts = ["on the toilet",
-                         "at a meeting",
-                         "on the plane",
-                         "while waiting",
-                         "on a not very good date",
-                         "in a public transport",
-                         "at the restaurant",
-                         "in a car with your mom",
-                         "at the school", ];
-            var current = 0;
-            function changeText() {
-                current++;
-                if(current >= texts.length) {
-                    current = 0;
-                }
-                $(".place-text").text(texts[current]);
-            }
-            $(document).ready(function() {
-                $(".images-slider").slick({
-                    arrows: false,
-                    autoplay: true,
-                    autoplaySpeed: 2500,
-                    onBeforeChange: changeText,
-                });
-            });
         </script>
     </body>
 </html>
